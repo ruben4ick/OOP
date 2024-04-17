@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DoubleList">
+      <UniqueIdentifier>{3bbfd2ed-342c-42b1-908b-8650d1a7dc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pyramide">
+      <UniqueIdentifier>{fe8c8300-8f42-4036-b176-9ba317512605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pyramide">
+      <UniqueIdentifier>{84da2649-549b-442e-a636-e4c8e30e9a31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PowerOfTwo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDoubleList.h">
+      <Filter>Header Files\DoubleList</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Pyramide</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramide.h">
+      <Filter>Header Files\Pyramide</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Pyramide</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleList.h">
+      <Filter>Header Files\DoubleList</Filter>
+    </ClInclude>
+    <ClInclude Include="CyclicDoubleList.h">
+      <Filter>Header Files\DoubleList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Pyramide</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramide.cpp">
+      <Filter>Source Files\Pyramide</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Pyramide</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
